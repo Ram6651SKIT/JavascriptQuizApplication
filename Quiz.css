@@ -1,25 +1,15 @@
-body{
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #333;
-}
-.question{
-	font-weight: 600;
-}
-.answers {
-    margin-bottom: 20px;
-}
-#submit{
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: #297;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
-#submit:hover{
-	background-color: #3a8;
-}
+/* Downloaded from https://www.kode.to/ */
+.content { margin-top:54px; }
+.header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
+.left-title { width:80px; color:#FFF; font-size:18px; float:left; }
+.right-title { width:150px; text-align:right; float:right; color:#FFF;  }
+.quiz-body { margin-top:15px; padding-bottom:50px; }
+.option-block-container { margin-top:20px; max-width:420px; }
+.option-block { padding:10px;
+/*  background:aliceblue; */
+  border:1px solid #84c5fe; margin-bottom:10px; cursor:pointer; }
+.result-question { font-weight:bold; }
+.c-wrong { margin-left:20px; color:#FF0000; }
+.c-correct {  margin-left:20px; color:green; }
+.last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
+.res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
